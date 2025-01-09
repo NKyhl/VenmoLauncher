@@ -7,18 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110808172D2F48B000DBCE2F /* VenmoLauncherControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110808162D2F48A900DBCE2F /* VenmoLauncherControlWidget.swift */; };
+		110808182D2F4E8400DBCE2F /* VenmoLauncherControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110808162D2F48A900DBCE2F /* VenmoLauncherControlWidget.swift */; };
 		117D96052D2B7A8D00FC0725 /* VenmoLauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D96042D2B7A8D00FC0725 /* VenmoLauncherApp.swift */; };
 		117D96072D2B7A8D00FC0725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D96062D2B7A8D00FC0725 /* ContentView.swift */; };
 		117D96092D2B7A8E00FC0725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D96082D2B7A8E00FC0725 /* Assets.xcassets */; };
 		117D960C2D2B7A8E00FC0725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D960B2D2B7A8E00FC0725 /* Preview Assets.xcassets */; };
+		117D96192D2B7B2600FC0725 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117D96182D2B7B2600FC0725 /* WidgetKit.framework */; };
+		117D961B2D2B7B2600FC0725 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117D961A2D2B7B2600FC0725 /* SwiftUI.framework */; };
+		117D961E2D2B7B2600FC0725 /* VenmoLauncherWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D961D2D2B7B2600FC0725 /* VenmoLauncherWidgetBundle.swift */; };
+		117D96202D2B7B2600FC0725 /* VenmoLauncherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D961F2D2B7B2600FC0725 /* VenmoLauncherWidget.swift */; };
+		117D96222D2B7B2700FC0725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D96212D2B7B2700FC0725 /* Assets.xcassets */; };
+		117D96262D2B7B2700FC0725 /* VenmoLauncherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 117D96162D2B7B2600FC0725 /* VenmoLauncherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		117D96242D2B7B2700FC0725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117D95F92D2B7A8D00FC0725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117D96152D2B7B2600FC0725;
+			remoteInfo = VenmoLauncherWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		117D962A2D2B7B2700FC0725 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				117D96262D2B7B2700FC0725 /* VenmoLauncherWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		110808162D2F48A900DBCE2F /* VenmoLauncherControlWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherControlWidget.swift; sourceTree = "<group>"; };
 		117D96012D2B7A8D00FC0725 /* VenmoLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117D96042D2B7A8D00FC0725 /* VenmoLauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherApp.swift; sourceTree = "<group>"; };
 		117D96062D2B7A8D00FC0725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		117D96082D2B7A8E00FC0725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117D960B2D2B7A8E00FC0725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		117D96162D2B7B2600FC0725 /* VenmoLauncherWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VenmoLauncherWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		117D96182D2B7B2600FC0725 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		117D961A2D2B7B2600FC0725 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		117D961D2D2B7B2600FC0725 /* VenmoLauncherWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherWidgetBundle.swift; sourceTree = "<group>"; };
+		117D961F2D2B7B2600FC0725 /* VenmoLauncherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherWidget.swift; sourceTree = "<group>"; };
+		117D96212D2B7B2700FC0725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117D96232D2B7B2700FC0725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		117D96132D2B7B2600FC0725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117D961B2D2B7B2600FC0725 /* SwiftUI.framework in Frameworks */,
+				117D96192D2B7B2600FC0725 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				117D96032D2B7A8D00FC0725 /* VenmoLauncher */,
+				117D961C2D2B7B2600FC0725 /* VenmoLauncherWidget */,
+				117D96172D2B7B2600FC0725 /* Frameworks */,
 				117D96022D2B7A8D00FC0725 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				117D96012D2B7A8D00FC0725 /* VenmoLauncher.app */,
+				117D96162D2B7B2600FC0725 /* VenmoLauncherWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +119,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		117D96172D2B7B2600FC0725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				117D96182D2B7B2600FC0725 /* WidgetKit.framework */,
+				117D961A2D2B7B2600FC0725 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		117D961C2D2B7B2600FC0725 /* VenmoLauncherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				110808162D2F48A900DBCE2F /* VenmoLauncherControlWidget.swift */,
+				117D961D2D2B7B2600FC0725 /* VenmoLauncherWidgetBundle.swift */,
+				117D961F2D2B7B2600FC0725 /* VenmoLauncherWidget.swift */,
+				117D96212D2B7B2700FC0725 /* Assets.xcassets */,
+				117D96232D2B7B2700FC0725 /* Info.plist */,
+			);
+			path = VenmoLauncherWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +150,34 @@
 				117D95FD2D2B7A8D00FC0725 /* Sources */,
 				117D95FE2D2B7A8D00FC0725 /* Frameworks */,
 				117D95FF2D2B7A8D00FC0725 /* Resources */,
+				117D962A2D2B7B2700FC0725 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				117D96252D2B7B2700FC0725 /* PBXTargetDependency */,
 			);
 			name = VenmoLauncher;
 			productName = VenmoLauncher;
 			productReference = 117D96012D2B7A8D00FC0725 /* VenmoLauncher.app */;
 			productType = "com.apple.product-type.application";
+		};
+		117D96152D2B7B2600FC0725 /* VenmoLauncherWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117D96272D2B7B2700FC0725 /* Build configuration list for PBXNativeTarget "VenmoLauncherWidgetExtension" */;
+			buildPhases = (
+				117D96122D2B7B2600FC0725 /* Sources */,
+				117D96132D2B7B2600FC0725 /* Frameworks */,
+				117D96142D2B7B2600FC0725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenmoLauncherWidgetExtension;
+			productName = VenmoLauncherWidgetExtension;
+			productReference = 117D96162D2B7B2600FC0725 /* VenmoLauncherWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +190,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					117D96002D2B7A8D00FC0725 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					117D96152D2B7B2600FC0725 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				117D96002D2B7A8D00FC0725 /* VenmoLauncher */,
+				117D96152D2B7B2600FC0725 /* VenmoLauncherWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		117D96142D2B7B2600FC0725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117D96222D2B7B2700FC0725 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +241,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110808182D2F4E8400DBCE2F /* VenmoLauncherControlWidget.swift in Sources */,
 				117D96072D2B7A8D00FC0725 /* ContentView.swift in Sources */,
 				117D96052D2B7A8D00FC0725 /* VenmoLauncherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		117D96122D2B7B2600FC0725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110808172D2F48B000DBCE2F /* VenmoLauncherControlWidget.swift in Sources */,
+				117D961E2D2B7B2600FC0725 /* VenmoLauncherWidgetBundle.swift in Sources */,
+				117D96202D2B7B2600FC0725 /* VenmoLauncherWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117D96252D2B7B2700FC0725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117D96152D2B7B2600FC0725 /* VenmoLauncherWidgetExtension */;
+			targetProxy = 117D96242D2B7B2700FC0725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		117D960D2D2B7A8E00FC0725 /* Debug */ = {
@@ -262,6 +385,7 @@
 		117D96102D2B7A8E00FC0725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +415,7 @@
 		117D96112D2B7A8E00FC0725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +442,60 @@
 			};
 			name = Release;
 		};
+		117D96282D2B7B2700FC0725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5M26MP7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VenmoLauncherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VenmoLauncherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolankyhl.VenmoLauncher.VenmoLauncherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		117D96292D2B7B2700FC0725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5M26MP7G5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VenmoLauncherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VenmoLauncherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolankyhl.VenmoLauncher.VenmoLauncherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +513,15 @@
 			buildConfigurations = (
 				117D96102D2B7A8E00FC0725 /* Debug */,
 				117D96112D2B7A8E00FC0725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117D96272D2B7B2700FC0725 /* Build configuration list for PBXNativeTarget "VenmoLauncherWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117D96282D2B7B2700FC0725 /* Debug */,
+				117D96292D2B7B2700FC0725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

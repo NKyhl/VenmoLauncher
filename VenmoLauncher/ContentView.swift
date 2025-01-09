@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "arrowshape.turn.up.right.circle.fill")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Venmo Launcher")
+            Image("logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 300, height: 300)
         }
         .padding()
+        .background(.black)
     }
 }
 
