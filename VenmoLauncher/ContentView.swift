@@ -14,13 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Venmo Launcher")
-            Image("logo")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 300, height: 300)
+                .font(.title)
+            Text("Add Widget to Lock Screen")
+                .font(.subheadline)
         }
         .padding()
-        .background(.black)
     }
 }
 
