@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		110808162D2F48A900DBCE2F /* VenmoLauncherControlWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherControlWidget.swift; sourceTree = "<group>"; };
+		110808192D2F68F400DBCE2F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		117D96012D2B7A8D00FC0725 /* VenmoLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117D96042D2B7A8D00FC0725 /* VenmoLauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoLauncherApp.swift; sourceTree = "<group>"; };
 		117D96062D2B7A8D00FC0725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +61,10 @@
 		117D96212D2B7B2700FC0725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117D96232D2B7B2700FC0725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1108081A2D2F69DC00DBCE2F /* assets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = assets; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		117D95FE2D2B7A8D00FC0725 /* Frameworks */ = {
@@ -84,6 +89,8 @@
 		117D95F82D2B7A8D00FC0725 = {
 			isa = PBXGroup;
 			children = (
+				1108081A2D2F69DC00DBCE2F /* assets */,
+				110808192D2F68F400DBCE2F /* README.md */,
 				117D96032D2B7A8D00FC0725 /* VenmoLauncher */,
 				117D961C2D2B7B2600FC0725 /* VenmoLauncherWidget */,
 				117D96172D2B7B2600FC0725 /* Frameworks */,
