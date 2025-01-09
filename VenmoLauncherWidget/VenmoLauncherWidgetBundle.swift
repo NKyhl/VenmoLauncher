@@ -12,8 +12,5 @@ import SwiftUI
 struct VenmoLauncherWidgetBundle: WidgetBundle {
     var body: some Widget {
         VenmoLauncherWidget()
-        if #available(iOS 18.0, *) {
-            VenmoLauncherControlWidget()
-        }
     }
 }
