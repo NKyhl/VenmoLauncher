@@ -2,4 +2,4 @@
 
 iOS Lock Screen Widget for launching Venmo and paying quickly
 
-![Lock Screen Screenshot](assets/lockscreen.jpg)
+<img src="assets/lockscreen.jpeg" alt="Lock Screen Screenshot" width="300"/>
